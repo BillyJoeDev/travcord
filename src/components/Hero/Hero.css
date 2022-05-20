@@ -14,6 +14,7 @@
     height: 100%;
     width: 100%;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .hero-cloud-img {
@@ -69,6 +70,7 @@
 }
 
 .download-button {
+    cursor: pointer;
     display: flex;
     align-items: center;
     padding: 15px 25px;
@@ -86,6 +88,7 @@
 }
 
 .open-button {
+    cursor: pointer;
     border: none;
     padding: 15px 25px;
     border-radius: 30px;
