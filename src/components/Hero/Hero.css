@@ -1,0 +1,97 @@
+.hero-wrapper {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+    background-color: #404eed;
+    height: 650px;
+}
+
+.hero-images-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-cloud-img {
+    height: 668px;
+    margin-left: -380px;
+    margin-top: -20px;
+    z-index: 2;
+}
+
+.hero-boots-img {
+    position: relative;
+    bottom: 363px;
+    left: -78px;
+    z-index: 2;
+}
+
+.hero-sitting-img {
+    position: relative;
+    bottom: 363px;
+    left: 650px;
+    z-index: 2;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 740px;
+    z-index: 1;
+}
+
+.hero-title {
+    font-size: 79px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.hero-summary {
+    color: white;
+    font-size: clamp(16px,2vw,18px);
+    line-height: 1.625;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.hero-cta-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-button {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+}
+
+.download-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.open-button {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin: 20px;
+    color: white;
+    background-color: #23272a;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+}
