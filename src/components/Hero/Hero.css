@@ -79,6 +79,11 @@
     background-color: white;
     font-size: 20px;
     letter-spacing: 0.2px;
+    transition: 0.2s all ease-in-out;
+}
+
+.download-button:hover {
+    color: #5865f2;
 }
 
 .download-icon {
@@ -97,4 +102,9 @@
     background-color: #23272a;
     font-size: 20px;
     letter-spacing: 0.2px;
+    transition: 0.2s all ease-in-out;
+}
+
+.open-button:hover {
+    background-color: #36393f;
 }
