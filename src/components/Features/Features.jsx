@@ -1,5 +1,6 @@
 import React from 'react'
 import './Features.css'
+import { AiOutlineDownload } from 'react-icons/ai'
 
 const Features = () => {
   return (
@@ -23,6 +24,23 @@ const Features = () => {
             <div className='feature-container-info'>
                 <h1>From few to a fandom</h1>
                 <p>Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
+            </div>
+        </section>
+        <section className='main-feature-container'>
+            <div className='main-feature-container-info'>
+                <h1>RELIABLE TECH FOR STAYING CLOSE</h1>
+                <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+            </div>
+            <img src='images/justchillin.svg' />
+            <div className='main-feature-download'>
+                <div className='main-feature-download-info'>
+                    <img src='images/sparkles.svg' />
+                    <h1>Ready to start your journey?</h1>
+                </div>
+                <a className='main-feature-download-button'>
+                    <AiOutlineDownload className='download-icon'/>
+                    Download for Windows
+                </a>
             </div>
         </section>
     </main>
