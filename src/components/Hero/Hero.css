@@ -141,4 +141,10 @@
     .open-button {
         margin: 20px 0 0 0;
     }
+    
+    .hero-boots-img {
+        bottom: -395px;
+        left: -51px;
+        width: 500px;
+    }
 }
