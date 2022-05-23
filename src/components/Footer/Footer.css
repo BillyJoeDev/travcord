@@ -98,3 +98,29 @@
     height: 35px;
     margin-right: 10px;
 }
+
+@media screen and (max-width: 760px) 
+{
+    .footer-wrapper {
+        align-items: flex-start
+    }
+
+    .footer-columns {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .footer-column {
+        margin-inline: 0;
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+
+    .main-footer-column {
+        margin-bottom: 30px;
+    }
+
+    .footer-branding {
+        margin: 35px 30px;
+    }
+}
