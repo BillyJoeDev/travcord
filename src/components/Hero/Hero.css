@@ -108,6 +108,21 @@
     background-color: #36393f;
 }
 
+@media screen and (max-width: 1320px) 
+{
+    .hero-sitting-img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1086px) 
+{
+    .hero-wrapper {
+        margin-top: -77px;
+    }
+}
+
+
 @media screen and (max-width: 760px) 
 {
     .hero-cloud-img, .hero-sitting-img {

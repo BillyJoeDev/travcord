@@ -74,7 +74,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1086px) {
     .navbar-wrapper {
         justify-content: space-between;
         margin-top: 10px;

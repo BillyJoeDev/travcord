@@ -10,10 +10,10 @@ const Footer = () => {
                 <ul className='main-footer-column'>
                     <h1>IMAGINE A PLACE</h1>
                     <div className='footer-socials'>
-                        <FaTwitter className='footer-social-icon' />
-                        <FaInstagram className='footer-social-icon' />
-                        <FaFacebookSquare className='footer-social-icon' />
-                        <FaYoutube className='footer-social-icon' />
+                        <FaTwitter className='footer-social-icon twitter' />
+                        <FaInstagram className='footer-social-icon insta' />
+                        <FaFacebookSquare className='footer-social-icon facebook' />
+                        <FaYoutube className='footer-social-icon youtube' />
                     </div>
                 </ul>
                 <ul className='footer-column'>
