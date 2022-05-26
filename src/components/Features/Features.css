@@ -47,7 +47,7 @@
 
 .feature-container-info {
     margin-top: 45px;
-    width: clamp(360px, 90vw, 800px);
+    width: clamp(300px, 85vw, 800px);
 }
 
 .feature-container-info h1 {
@@ -98,7 +98,7 @@
 }
 
 .feature-container img, .main-feature-container img  {
-    width: clamp(450px,86vw,700px);
+    width: clamp(250px,80vw,700px);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1300px)
@@ -136,5 +136,12 @@
 
     .main-feature-container-info h1, .main-feature-container-info p {
         text-align: left;
+    }
+}
+
+@media screen and (max-width: 450px) 
+{
+    .main-feature-container-info {
+        width: 338px;
     }
 }

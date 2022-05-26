@@ -47,7 +47,7 @@
 }
 
 .hero-title {
-    font-size: clamp(24px,7vw,79px);
+    font-size: clamp(16px,7vw,79px);
     font-weight: 900;
     color: white;
     margin-bottom: 50px;
@@ -55,7 +55,7 @@
 
 .hero-summary {
     color: white;
-    font-size: clamp(14px,2vw,18px);
+    font-size: clamp(12px,2vw,18px);
     line-height: 1.625;
     text-align: center;
     margin-bottom: 25px;
@@ -161,5 +161,13 @@
         bottom: -395px;
         left: -51px;
         width: 500px;
+    }
+}
+
+@media screen and (max-width: 450px) 
+{
+    .hero-section {
+        width: 357px;
+        margin-left: 10px;
     }
 }

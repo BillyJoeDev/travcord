@@ -185,3 +185,14 @@
         margin: 35px 30px;
     }
 }
+
+@media screen and (max-width: 450px) 
+{
+    .footer-columns {
+        margin: 80px 20px;
+    }
+
+    .footer-branding {
+        margin: 35px 38px;
+    }
+}
