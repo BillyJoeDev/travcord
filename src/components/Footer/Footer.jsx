@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className='footer-wrapper'>
         <div className='footer-container'>
             <div className='footer-columns'>
-                <ul className='main-footer-column'>
+                <div className='main-footer-column'>
                     <h1>IMAGINE A PLACE</h1>
                     <div className='footer-socials'>
                         <FaTwitter className='footer-social-icon twitter' />
@@ -15,7 +15,7 @@ const Footer = () => {
                         <FaFacebookSquare className='footer-social-icon facebook' />
                         <FaYoutube className='footer-social-icon youtube' />
                     </div>
-                </ul>
+                </div>
                 <ul className='footer-column'>
                     <h1>Product</h1>
                     <li>Download</li>
@@ -53,7 +53,7 @@ const Footer = () => {
             <div className='footer-seperator' />
             <div className='footer-branding'>
                 <a className='footer-logo-wrapper'>
-                    <img className='footer-logo' src='images/Travcord.png' />
+                    <img className='footer-logo' src='images/Travcord.png' alt="" />
                     Travcord
                 </a>
                 <button>Open Travcord</button>

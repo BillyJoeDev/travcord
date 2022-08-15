@@ -6,9 +6,9 @@ const Hero = () => {
   return (
     <header className='hero-wrapper'>
         <div className='hero-images-container'>
-            <img src='/images/clouds.svg' className='hero-cloud-img'/>
-            <img src='/images/boots.svg' className='hero-boots-img'/>
-            <img src='/images/sitting.svg' className='hero-sitting-img'/>
+            <img src='/images/clouds.svg' className='hero-cloud-img' alt="" />
+            <img src='/images/boots.svg' className='hero-boots-img' alt="" />
+            <img src='/images/sitting.svg' className='hero-sitting-img' alt="" />
         </div>
         <section className='hero-section'>
             <h1 className='hero-title'>IMAGINE A PLACE...</h1>
