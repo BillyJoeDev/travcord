@@ -13,3 +13,7 @@
     --primary-color-400: #5865f2;
     --primary-gradient-400: linear-gradient(90deg,#8ea1e1,#7289da);
 }
+
+a {
+    text-decoration: none;
+}
