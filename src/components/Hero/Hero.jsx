@@ -18,7 +18,7 @@ const Hero = () => {
                     <AiOutlineDownload className='download-icon'/>
                     Download for Windows
                 </a>
-                <button className='open-button'>Open Discord in your browser</button>
+                <button className='open-button'>Open Travcord in your browser</button>
             </div>
         </section>
     </header>

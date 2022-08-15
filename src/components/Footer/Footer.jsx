@@ -53,10 +53,10 @@ const Footer = () => {
             <div className='footer-seperator' />
             <div className='footer-branding'>
                 <a className='footer-logo-wrapper'>
-                    <FaDiscord className='footer-logo' />
-                    Discord
+                    <img className='footer-logo' src='images/Travcord.png' />
+                    Travcord
                 </a>
-                <button>Open Discord</button>
+                <button>Open Travcord</button>
             </div>
         </div>
     </footer>

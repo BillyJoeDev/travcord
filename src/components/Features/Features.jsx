@@ -9,7 +9,7 @@ const Features = () => {
             <img src='images/studygroup.svg' />
             <div className='feature-container-info'>
                 <h1>Create an invite-only place where you belong</h1>
-                <p>Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
+                <p>Travcord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
             </div>
         </section>
         <section className='feature-container two'>
