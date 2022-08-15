@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
             <div className='footer-seperator' />
             <div className='footer-branding'>
-                <a className='footer-logo-wrapper'>
+                <a className='footer-logo-wrapper' href='/'>
                     <img className='footer-logo' src='images/Travcord.png' alt="" />
                     Travcord
                 </a>

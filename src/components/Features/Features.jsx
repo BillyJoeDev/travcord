@@ -37,7 +37,7 @@ const Features = () => {
                     <img src='images/sparkles.svg' alt="" />
                     <h1>Ready to start your journey?</h1>
                 </div>
-                <a className='main-feature-download-button'>
+                <a className='main-feature-download-button' href='/'>
                     <AiOutlineDownload className='download-icon'/>
                     Download for Windows
                 </a>
